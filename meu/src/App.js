@@ -1,4 +1,5 @@
 import "./App.css";
+import HelloWorld from "./components/HelloWorld";
 
 function App() {
   const name = "Erika"
@@ -9,6 +10,7 @@ function App() {
       <p>Meu primeiro app</p>
       <h2>Alterando o JSX</h2>
       <p>Olá, {name}</p>
+      <HelloWorld/>
     </div>
   );
 }

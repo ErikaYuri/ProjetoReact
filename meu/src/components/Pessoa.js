@@ -1,9 +1,9 @@
-function Pessoa() {
+function Pessoa(nome, idade, profissao, foto) {
     return <div>
-        <img src="props.foto" alt={PaymentResponse.nome} />
-        <h2>Nome: {PaymentResponse.nome}</h2>
-        <p>Idade: {PaymentResponse.idade</p>
-        <p>Profissao: {PaymentResponse.profissao}</p>
+        <img src="foto" alt={nome} />
+        <h2>Nome: {nome}</h2>
+        <p>Idade: {idade}</p>
+        <p>Profissao: {profissao}</p>
     </div>
 }
 

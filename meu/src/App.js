@@ -3,6 +3,7 @@ import HelloWorld from "./components/HelloWorld";
 import SayMyName from "./components/SayMyName";
 import Pessoa from "./components/Pessoa";
 import Frase from "./components/Frase";
+import List from "./components/List";
 
 function App() {
 
@@ -19,7 +20,9 @@ function App() {
       nome="Erika" 
       idade="43" 
       profissao="Desenvolvedora" 
-      foto="https://via.placeholder.com/150"></Pessoa>
+      foto="https://via.placeholder.com/150"
+      />
+      <List />
     </div>
     
   );
